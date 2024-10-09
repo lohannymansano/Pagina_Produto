@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/PaginaProduto.css">
+    <title>Paginas de Produtos</title>
+</head>
+<body>
+
+    <main>
+        <section class="Produto">
+            <div class="imagens-produto">
+                <img src="img/p.png" alt="Produto Principal" class="imagem-principal" id="imagem-principal">
+                <div class="miniaturas">
+                    <img src="img/p2.png" alt="Miniatura 2" class="miniatura" data-imagem="p2.png">
+                    <img src="img/p3.png" alt="Miniatura 3" class="miniatura" data-imagem="p3.png">
+                    <img src="img/p4.png" alt="Miniatura 4" class="miniatura" data-imagem="p4.png">
+                </div>
+            </div>
+
+            <div class="detalhes-produto">
+                <h2>Limpeza</h2>
+                <p class="descricao">Este produto é de alta qualidade e atende ás suas necessidades. </p>
+
+                <p class="preco">R$ 149,99</p>
+                
+                <form class="opcoes-compra">
+                    <label for="tamanho">Tamanho:</label>
+                    <select id="tamanho">
+                        <option>500 mL</option>
+                        <option>750 ml</option>
+                        <option>5000 mL</option>
+                        <option> 500ml</option>
+                    </select>
+                    <label for="cor">Cor:</label>
+                    <select id="cor">
+                        <option>Azul</option>
+                        <option>Amarelo</option>
+                        <option>Rojo</option>
+                        <option>Vermelho</option>
+                    </select>
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+        </section>
+     
+        <selection class="comentarios">
+            <h3>Comentários dos clientes</h3>
+            <div class="comentario">
+                <img src="img/Miguel.png" alt="Foto de Miguel"  class="foto-usuario">
+                <p><strong>Miguel:</strong>Muito bom, superou em quantidade e na embalagem.</p>
+            </div>
+                   <div class="comentario">
+                <img src="img/Clara.png" alt="Foto de Clara"  class="foto-usuario">
+                <p><strong>Clara:</strong>Superou minhas expectativas!!! recomendo muito.</p>
+            </div>
+        </select>
+    </main>
+    <p>&copy;2024 Empresa. Todos os direitos reservados.</p>
+    <script src="script.js"></script>
+</body>
+</html>
